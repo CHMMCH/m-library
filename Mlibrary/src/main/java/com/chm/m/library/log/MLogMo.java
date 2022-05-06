@@ -24,7 +24,7 @@ public class MLogMo {
     }
 
     public String flattenedLog(){
-        return getFlattened() +"\n" + log;
+        return getFlattened() +"\t" + log;
     }
 
     public String getFlattened(){

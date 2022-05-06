@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/zs/muke/m-library/Mlibrary/src/main/res/layout/mlog_item.xml" value="0.36614583333333334" />
         <entry key="..\:/zs/muke/m-library/app/src/main/res/layout/activity_m_log_demo.xml" value="0.36614583333333334" />
         <entry key="..\:/zs/muke/m-library/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
       </map>

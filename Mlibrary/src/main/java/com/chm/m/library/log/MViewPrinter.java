@@ -76,10 +76,11 @@ public class MViewPrinter implements MLogPrinter{
         public void onBindViewHolder(@NonNull LogViewHolder holder, int position) {
             MLogMo logItem = logs.get(position);
             int color = getHighlightColor(logItem.level);
-            holder.tagView.setTextColor(color);
+//            holder.tagView.setTextColor(color);
             holder.messageView.setTextColor(color);
-            holder.tagView.setText(logItem.getFlattened());
-            holder.messageView.setText(logItem.log);
+//            holder.tagView.setText(logItem.getFlattened());
+//            holder.messageView.setText(logItem.log);
+            holder.messageView.setText(logItem.flattenedLog());
         }
 
         /**
