@@ -40,7 +40,7 @@ class MLogDemoActivity : AppCompatActivity() {
 //
 //        },MLogType.E,"chmt","8888")
 
-        var arr1 = arrayOf("测速1","88888","6666666","222222222222","9889898989899")
+        val arr1 = arrayOf("测速1","88888","6666666","222222222222","9889898989899")
 
         MLog.a("测试log1","sss","sss","sada",arr1)
 
